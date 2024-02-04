@@ -10,6 +10,10 @@ div {
 
 .header {
     grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
 }
 
 .sidebar {
@@ -23,6 +27,5 @@ div {
 
 .user-info {
     display: flex;
-  /*  justify-content: center; */
     align-items: center;
 }
