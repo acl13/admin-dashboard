@@ -54,15 +54,6 @@ div {
 .content {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 10fr;
-}
-
-.projects {
-    grid-area: 1 / 1 / 3 / 2;
-}
-
-.updates {
-    grid-area: 1 / 2 / 3 / 3;
 }
 
 .project-cards {
