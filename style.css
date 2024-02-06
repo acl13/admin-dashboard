@@ -38,5 +38,9 @@ div {
 .sidebar-navigation {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    gap: 1em;
+    margin-bottom: 2em;
 
 }
+
+
