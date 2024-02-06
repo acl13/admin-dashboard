@@ -29,3 +29,14 @@ div {
     display: flex;
     align-items: center;
 }
+
+.sidebar {
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr;
+}
+
+.sidebar-navigation {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
