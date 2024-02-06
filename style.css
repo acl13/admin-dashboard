@@ -56,12 +56,21 @@ div {
     grid-template-columns: 3fr 1fr;
 }
 
+
 .project-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 1em;
-    height: 90%;
+    height: 94%;
+}
+
+.announcements {
+    height: 50%;
+}
+
+.trending {
+    height: 40%;
 }
 
 .trending-user {
