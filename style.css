@@ -7,6 +7,9 @@ div {
     padding: 0;
 }
 
+
+/**** Layout ****/
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -92,4 +95,16 @@ div {
     height: 20px;
 }
 
+
+
+/**** Styling ****/
+
+.sidebar {
+    background-color: #1e9ce6;
+    color: #ffffff;
+}
+
+.sidebar svg {
+    fill: #ffffff;
+}
 
