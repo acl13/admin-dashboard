@@ -68,6 +68,11 @@ div {
     height: 94%;
 }
 
+.icon-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .announcements {
     height: 50%;
 }
@@ -91,7 +96,7 @@ div {
     height: 50px;
 }
 
-.header svg {
+.header svg, .icon-container svg {
     height: 20px;
 }
 
@@ -128,3 +133,6 @@ button {
 img {
     border-radius: 50%;
 }
+
+
+
