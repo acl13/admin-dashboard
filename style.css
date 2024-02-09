@@ -100,12 +100,24 @@ div {
 
 svg {
     height: 20px;
-    padding: 5px;
 }
 
 
 
 /**** Styling ****/
+
+input {
+    background-color: #edeff0;
+}
+
+button {
+    background-color: #1e9ce6;
+    color: #ffffff;
+}
+
+img {
+    border-radius: 50%;
+}
 
 .sidebar {
     background-color: #1e9ce6;
@@ -124,17 +136,21 @@ svg {
     background-color: #ffffff;
 }
 
-input {
-    background-color: #edeff0;
+.card, .announcement {
+    padding: 1em;
 }
 
-button {
-    background-color: #1e9ce6;
-    color: #ffffff;
+.trending-user {
+    font-size: 0.9em;
+    padding: 0.5em 1em;
 }
 
-img {
-    border-radius: 50%;
+.card svg {
+    padding: 10px;
+}
+
+.announcement {
+    font-size: 0.8em;
 }
 
 
