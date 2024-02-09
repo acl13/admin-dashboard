@@ -8,10 +8,6 @@ div {
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    height: 100vh;
-}
-
 
 /**** Layout ****/
 
@@ -72,9 +68,17 @@ body {
     gap: 1em;
 }
 
+.card {
+    position: relative;
+    height: 150px;
+}
+
 .icon-container {
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 
