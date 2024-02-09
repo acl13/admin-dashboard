@@ -98,6 +98,7 @@ div {
 
 .header svg, .icon-container svg {
     height: 20px;
+    padding: 5px;
 }
 
 
