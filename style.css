@@ -108,3 +108,10 @@ div {
     fill: #ffffff;
 }
 
+.content {
+    background-color: #edeff0;
+}
+
+.card, .announcement, .trending-user {
+    background-color: #ffffff;
+}
