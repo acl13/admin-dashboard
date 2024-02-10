@@ -82,6 +82,13 @@ div {
 }
 
 
+.updates {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 
 .trending-user {
     display: grid;
@@ -131,6 +138,18 @@ img {
 .content {
     background-color: #edeff0;
 }
+
+.content h3 {
+    margin-bottom: 8px;
+}
+
+
+
+.projects, .updates {
+    margin: 30px 10px;
+}
+
+
 
 .card, .announcement, .trending-user {
     background-color: #ffffff;
