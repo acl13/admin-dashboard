@@ -131,6 +131,10 @@ img {
     border-radius: 50%;
 }
 
+.header {
+    padding: 10px 30px;
+}
+
 .sidebar {
     background-color: #1e9ce6;
     color: #ffffff;
