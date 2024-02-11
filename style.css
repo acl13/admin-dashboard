@@ -135,6 +135,16 @@ img {
     padding: 10px 30px;
 }
 
+.user-notifications {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-notifications svg {
+    padding-left: 50%;
+}
+
 .sidebar {
     background-color: #1e9ce6;
     color: #ffffff;
