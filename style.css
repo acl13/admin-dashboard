@@ -125,6 +125,11 @@ input {
 button {
     background-color: #1e9ce6;
     color: #ffffff;
+    width: 92px;
+    padding: 6px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
 }
 
 img {
@@ -143,6 +148,12 @@ img {
 
 .user-notifications svg {
     padding-left: 50%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .sidebar {
