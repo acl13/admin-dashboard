@@ -148,6 +148,10 @@ img {
     padding-left: 50%;
 }
 
+.user-info div {
+    padding: 0px 16px;
+}
+
 .buttons {
     display: flex;
     justify-content: space-between;
