@@ -114,7 +114,7 @@ svg {
 
 input {
     background-color: #edeff0;
-    width: 80%;
+    width: 90%;
     border: none;
     padding: 5px;
     margin: 5px;
@@ -143,10 +143,11 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
 }
 
 .user-notifications svg {
-    padding-left: 50%;
+    padding-left: 30%;
 }
 
 .user-info div {
