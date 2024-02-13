@@ -146,6 +146,7 @@ img {
     font-weight: bold;
 }
 
+
 .user-notifications svg {
     padding-left: 30%;
 }
@@ -179,6 +180,7 @@ img {
 
 .content {
     background-color: #edeff0;
+    box-shadow: inset 0px 5px 5px lightgray;
 }
 
 .content h3 {
@@ -197,22 +199,42 @@ img {
     background-color: #ffffff;
 }
 
+.card, .announcements, .trending {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
 .card, .announcement {
     padding: 1em;
 }
+
+.announcements, .trending {
+    border: 12px solid white;
+}
+
+.announcement {
+    font-size: 0.8em;
+}
+
+.middle {
+    border-top: 1px solid #edeff0;
+    border-bottom: 1px solid #edeff0;
+} 
 
 .trending-user {
     font-size: 0.9em;
     padding: 0.5em 1em;
 }
 
-.card svg {
-    padding: 10px;
+.card {
+    border-left: 5px solid #ffde59;
 }
 
-.announcement {
-    font-size: 0.8em;
+.card svg {
+    padding: 10px;
+
 }
+
 
 
 
